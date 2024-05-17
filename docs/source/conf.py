@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'collaborative perception learning'
+copyright = '2024, proanimer'
+author = 'proanimer'
 
 release = '0.1'
 version = '0.1.0'
