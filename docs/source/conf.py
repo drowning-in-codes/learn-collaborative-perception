@@ -12,7 +12,6 @@ version = '0.1.0'
 # -- General configuration
 
 extensions = [
-    'recommonmark',
     'sphinx_markdown_tables',
     'myst_parser',
     'sphinx.ext.duration',
@@ -22,6 +21,8 @@ extensions = [
     'sphinx.ext.intersphinx',
 ]
 
+
+      
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3/', None),
     'sphinx': ('https://www.sphinx-doc.org/en/master/', None),
