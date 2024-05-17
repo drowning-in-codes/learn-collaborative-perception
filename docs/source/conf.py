@@ -12,6 +12,9 @@ version = '0.1.0'
 # -- General configuration
 
 extensions = [
+    'recommonmark',
+    'sphinx_markdown_tables',
+    'myst_parser',
     'sphinx.ext.duration',
     'sphinx.ext.doctest',
     'sphinx.ext.autodoc',
@@ -33,3 +36,9 @@ html_theme = 'sphinx_rtd_theme'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
+
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.txt': 'markdown',
+    '.md': 'markdown',
+}
