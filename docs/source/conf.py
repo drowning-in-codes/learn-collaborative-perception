@@ -21,7 +21,21 @@ extensions = [
     'sphinx.ext.intersphinx',
 ]
 
-
+myst_enable_extensions = [
+        "amsmath",
+    "attrs_inline",
+    "colon_fence",
+    "deflist",
+    "dollarmath",
+    "fieldlist",
+    "html_admonition",
+    "html_image",
+    "replacements",
+    "smartquotes",
+    "strikethrough",
+    "substitution",
+    "tasklist",
+]
       
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3/', None),
